@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
@@ -15,18 +17,27 @@
   </style>
 </head>
 <body>
+  <section class="hero">
+    <div class="hero-container">
+      <div>
+        <img class="logo" src="./images/logo.svg" alt="appreals logo">
+        <img class="hero-mobile" src="./images/hero-mobile.jpg" alt="mobile Hero image">
+        <h1>We're <br><span>coming soon</span></h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+        <input type="email" name="email" id="email" required><button type="submit" class="submit"><img src="./images/icon-arrow.svg" alt="submit icon"></button>
+        <p class="error"></p>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="./images/hero-desktop.jpg" alt="Hero image">
+    </div>
+  </section>
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Rotimi Adebiyi</a>.
     </p>
   </footer>
 </body>
